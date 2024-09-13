@@ -1,1 +1,33 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goontai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+
+            <div class="banner">
+                <img src="https://img99.pixhost.to/images/543/512152680_hentaibanner.jpg" alt="Website Banner" style="width: 100%; height: auto; border-radius: 5px;">
+            </div>
+
+
+            <input type="text" id="tagSearch" placeholder="Search tags...">
+            <div id="tagList"></div>
+
+            <div class="controls">
+                <button id="addVideoBtn">Add Video (G)</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="grid"></div>
+            <div id="loading">Loading videos...</div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
